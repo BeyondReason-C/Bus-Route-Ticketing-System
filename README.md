@@ -1,4 +1,4 @@
-# 🚌 Bus Route & Ticketing System
+#Bus Route & Ticketing System
 
 **PS No. 67 | Data Structures & Algorithms (DSA) Project | Language: Java**
 
@@ -6,7 +6,7 @@ A console-based Java application to manage bus routes, stops and ticket bookings
 
 ---
 
-## 👤 Student Details
+## Student Details
 
 | Field | Details |
 |---|---|
@@ -22,7 +22,7 @@ A console-based Java application to manage bus routes, stops and ticket bookings
 
 ---
 
-## 📌 Problem Statement
+## Problem Statement
 
 Manage bus routes, stops and ticket bookings. Represent route stops using a circular linked list, use a queue for passengers waiting for seats, store seat occupancy in a 2D array, and use hashing for ticket lookup.
 
@@ -30,7 +30,7 @@ Manage bus routes, stops and ticket bookings. Represent route stops using a circ
 
 ---
 
-## ✨ Features
+## Features
 
 1. **Show route** – displays all stops of a bus and marks where the bus currently is.
 2. **Book ticket** – allocates the first free seat and generates a unique ticket ID (`BT101`, `BT102`, ...).
@@ -44,7 +44,7 @@ Manage bus routes, stops and ticket bookings. Represent route stops using a circ
 
 ---
 
-## 🧠 Data Structures Used
+## Data Structures Used
 
 | Concept | Where it is used | Implementation |
 |---|---|---|
@@ -57,7 +57,7 @@ Manage bus routes, stops and ticket bookings. Represent route stops using a circ
 
 ---
 
-## 🗂️ Project Structure
+## Project Structure
 
 ```
 Bus-Route-Ticketing-System/
@@ -69,7 +69,7 @@ Bus-Route-Ticketing-System/
 
 ---
 
-## ⚙️ How to Compile and Run
+## How to Compile and Run
 
 **Requirements:** Java JDK 11 or above.
 
@@ -90,7 +90,7 @@ On the first run, `bus_routes.txt` is created automatically with two default bus
 
 ---
 
-## 🖥️ Menu
+## Menu
 
 ```
 1 Show route    2 Book ticket   3 Cancel ticket
@@ -100,7 +100,7 @@ On the first run, `bus_routes.txt` is created automatically with two default bus
 
 ---
 
-## 📄 Data File Format (`bus_routes.txt`)
+## Data File Format (`bus_routes.txt`)
 
 | Line type | Format | Example |
 |---|---|---|
@@ -118,7 +118,7 @@ On the first run, `bus_routes.txt` is created automatically with two default bus
 
 ---
 
-## ✅ Test Cases
+## Test Cases
 
 | # | Type | Input | Expected Output |
 |---|---|---|---|
@@ -148,7 +148,7 @@ Ticket BT999 not found.
 
 ---
 
-## 🔄 How It Works
+## How It Works
 
 - **Booking:** Scans the 2×3 seat array row by row and gives the first free seat. A seat that is already occupied is never booked again.
 - **Full bus:** If no seat is free, the passenger name is added to the bus's waiting queue.
@@ -158,7 +158,7 @@ Ticket BT999 not found.
 
 ---
 
-## ⏱️ Time Complexity
+## Time Complexity
 
 | Operation | Complexity |
 |---|---|
@@ -172,7 +172,7 @@ Ticket BT999 not found.
 
 ---
 
-## 🛡️ Input Handling
+## Input Handling
 
 - Bus IDs and ticket IDs are case-insensitive (`b101` works the same as `B101`).
 - Invalid bus ID → `Bus not found.`
@@ -183,7 +183,7 @@ Ticket BT999 not found.
 
 ---
 
-## 🚀 Future Improvements
+## Future Improvements
 
 - Add a GUI or web interface.
 - Support more buses and custom seat layouts.
@@ -192,13 +192,13 @@ Ticket BT999 not found.
 
 ---
 
-## 📚 Concepts Covered
+## Concepts Covered
 
 `Circular Linked List` · `Queue` · `2D Array` · `Hashing (HashMap)` · `File Handling` · `Graph (Dijkstra)`
 
 ---
 
-## 👨‍💻 Author
+## Author
 
 **Pukka Chandrashekhar**
 ERP ID: RU-25-11057
