@@ -67,29 +67,6 @@ Bus-Route-Ticketing-System/
 └── README.md             # Project documentation
 ```
 
----
-
-## How to Compile and Run
-
-**Requirements:** Java JDK 11 or above.
-
-```bash
-# 1. Clone the repository
-git clone https://github.com/BeyondReason-C/Bus-Route-Ticketing-System.git
-cd Bus-Route-Ticketing-System
-
-
-# 2. Compile
-javac BusSystem.java
-
-# 3. Run
-java BusSystem
-```
-
-On the first run, `bus_routes.txt` is created automatically with two default buses (B101 and B102) and their roads.
-
----
-
 ## Menu
 
 ```
