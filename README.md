@@ -201,6 +201,8 @@ Ticket BT999 not found.
 ## Author
 
 **Pukka Chandrashekhar**
-ERP ID: RU-25-11057
+
+ERP ID: RU-25-11057|
 B.Tech CSE (AI/ML) | Section 3C | 3rd Semester | 2026-27
+
 Rungta International Skills University
